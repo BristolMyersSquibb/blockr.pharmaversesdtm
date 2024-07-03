@@ -1,11 +1,15 @@
 Package: blockr.pharmaversesdtm
 Title: Block for 'pharmaversesdtm' Datasets
-Version: 0.0.0.9000
+Version: 0.0.1.9000
 Authors@R: 
     c(person(given = "John",
              family = "Coene",
              role = c("cre", "aut"),
              email = "john@opifex.org"),
+      person(given = "David",
+             family = "Granjon",
+             role = c("ctb"),
+             email = "david@cynkra.com"),
       person(family = "Bristol Myers Squibb",
            role = c("cph", "fnd"))
     )

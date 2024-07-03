@@ -20,19 +20,9 @@ remotes::install_github("blockr-org/blockr.pharmaversesdtm")
 library(blockr)
 library(blockr.pharmaversesdtm)
 
-stack <- new_stack(
-    sdtm_block
-)
+serve_stack(new_stack(new_sdtm_block(selected = "ds")))
 
-ui <- fluidPage(
-    theme = bslib::bs_theme(5L),
-    generate_ui(stack)
-)
-
-server <- function(...){
-    generate_server(stack)
-}
-
-shinyApp(ui, server)
+# Will error
+# serve_stack(new_stack(new_sdtm_block(selected = "test")))
 ```
 
