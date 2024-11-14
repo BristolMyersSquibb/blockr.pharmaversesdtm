@@ -1,5 +1,5 @@
 #' @importFrom blockr register_block
-register_adam_blocks <- function(pkg = "blockr.pharmaversesdtm") {
+register_sdtm_blocks <- function(pkg = "blockr.pharmaversesdtm") {
   register_block(
     constructor = new_sdtm_block,
     name = "SDTM data",
