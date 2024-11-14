@@ -4,7 +4,6 @@ register_adam_blocks <- function(pkg = "blockr.pharmaversesdtm") {
     constructor = new_sdtm_block,
     name = "SDTM data",
     description = "SDTM datasets from the pharmaverse",
-    classes = c("sdtm_block", "data_block"),
     package = pkg
   )
 }
